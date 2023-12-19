@@ -1,0 +1,82 @@
+{
+    "bobToken": "0x5725Ffb2F8A17C74c08F416c9a41E30e23c73ae0",
+    "factory": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+    "liquidationFeeD": 30000000,
+    "liquidationPremiumD": 30000000,
+    "maxDebtPerVault": 115792089237316195423570985008687907853269984665640564039457584007913129639935,
+    "maxNftsPerVault": 4,
+    "maxPriceRatioDeviation": 1000000000000000000,
+    "minSingleNftCollateral": 10000000000000000000,
+    "minter": "0x5725Ffb2F8A17C74c08F416c9a41E30e23c73ae0",
+    "positionManager": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+    "stabilisationFee": 10000000,
+    "treasury": "0xF867d6a5eC229e485158E8B9e7F279e9FF3d42F0",
+    "validPeriod": 3600,
+    "tokens": [
+      {
+        "chainlinkOracle": "0xe121Af12c3FD9Cd097bEA8F09CBcD607bf90EbFc",
+        "chainlinkOracleHeartbeat": 864000,
+        "tokenAddress": "0xD87Ba7A50B2E7E660f678A895E4B72E7CB4CCd9C"
+      },
+      {
+        "chainlinkOracle": "0xd6886F71765FAE256976f98D4f2D265073A43407",
+        "chainlinkOracleHeartbeat": 36000,
+        "tokenAddress": "0xc04b0d3107736c32e19f1c62b2af67be61d63a05"
+      },
+      {
+        "chainlinkOracle": "0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e",
+        "chainlinkOracleHeartbeat": 36000,
+        "tokenAddress": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6"
+      }
+    ],
+    "pools": [
+      {
+        "fee": 500,
+        "liquidationThresholdD": 800000000,
+        "borrowThresholdD": 700000000,
+        "minWidth": 1000,
+        "token0": "0x34852e54D9B4Ec4325C7344C28b584Ce972e5E62",
+        "token1": "0xD87Ba7A50B2E7E660f678A895E4B72E7CB4CCd9C"
+      },
+      {
+        "fee": 3000,
+        "liquidationThresholdD": 700000000,
+        "borrowThresholdD": 600000000,
+        "minWidth": 0,
+        "token0": "0xc04b0d3107736c32e19f1c62b2af67be61d63a05",
+        "token1": "0xD87Ba7A50B2E7E660f678A895E4B72E7CB4CCd9C"
+      },
+      {
+        "fee": 500,
+        "liquidationThresholdD": 800000000,
+        "borrowThresholdD": 700000000,
+        "minWidth": 1000,
+        "token0": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+        "token1": "0xD87Ba7A50B2E7E660f678A895E4B72E7CB4CCd9C"
+      },
+      {
+        "fee": 3000,
+        "liquidationThresholdD": 700000000,
+        "borrowThresholdD": 600000000,
+        "minWidth": 0,
+        "token0": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+        "token1": "0xD87Ba7A50B2E7E660f678A895E4B72E7CB4CCd9C"
+      },
+      {
+        "fee": 500,
+        "liquidationThresholdD": 800000000,
+        "borrowThresholdD": 700000000,
+        "minWidth": 1000,
+        "token0": "0x34852e54D9B4Ec4325C7344C28b584Ce972e5E62",
+        "token1": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6"
+      },
+      {
+        "fee": 3000,
+        "liquidationThresholdD": 700000000,
+        "borrowThresholdD": 600000000,
+        "minWidth": 0,
+        "token0": "0x34852e54D9B4Ec4325C7344C28b584Ce972e5E62",
+        "token1": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6"
+      }
+    ]
+}
